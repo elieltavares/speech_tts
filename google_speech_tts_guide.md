@@ -17,6 +17,6 @@ Encoding format, use default `UTF-8`
 wget -q -U Mozilla -O output.mp3
 
 Example:
-    wget -q -U Mozilla -O output.mp3 "http://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=$NEXTURL&tl=en"
+    `wget -q -U Mozilla -O output.mp3 "http://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=$NEXTURL&tl=en"`
     or
-    mpg123 -q "http://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=$NEXTURL&tl=en"
+    `mpg123 -q "http://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=$NEXTURL&tl=en"`
